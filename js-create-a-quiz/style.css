@@ -1,0 +1,83 @@
+body { 
+    
+    background-image: url("Media/question-mark-etymology.png"); 
+    background-size: cover;
+    /*background-color: black;*/
+    margin: 0;
+
+
+      
+}
+
+h1 {
+    color: gold;
+    text-decoration: underline;
+    text-align: center;
+    font-family: 'Trebuchet MS' 
+    
+}
+
+img {
+    margin-left: 210px;
+    text-align: center
+}
+
+.image {
+    margin-left: 250px;
+    text-align: center
+}
+
+.question {
+    color: darkred;
+}
+
+.p {
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Times New Roman'
+}
+
+ul {
+    width: 300px;
+    margin: auto;
+}
+
+.italic {
+    font-style: italic;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration-line: underline;
+    color: blueviolet
+
+}
+
+button {
+    background-color: red;
+    border-radius: 25px;
+    color: white;
+    font-size: 20px;
+    margin-right: 25px;
+    padding: 10px;
+
+}
+
+div {
+    background-color: rgba(255,255,255, 0.9);
+    padding: 20px 150px 100px;
+    width: 615px;
+    margin: auto;
+
+}
+
+
+ 

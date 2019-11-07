@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Random Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div>
+    <h1>Random Quiz.</h1>
+    <hr>
+
+    <h2 class="question"> Question 1.</h2>
+    <p class="p">What is the name of Halo's main protaganist?</p>
+
+    
+    <img src="Media/Master-Chief-PNG-Image-Background.png" alt="Master Chief" width="200p">
+        <ul>
+            <li>Mister Chef</li>
+            <li>Arbiter</li>
+            <li>Master Chief</li>
+            <li>Sargeant Johnson</li>
+        </ul>
+        <a class="a:hover" href="https://www.halopedia.org/Halo_universe" target="_blank">(Hint) </a>
+    <p class="italic">Answer: <input id="inputAnswer1" type="text"></p> 
+    <hr>
+
+    <h2 class="question">Question 2.</h2>
+    <p class="p">What year was the first iPhone released?</p>
+    <img src="Media/topic_iphone_2g.webp" alt=iPhone2G width="200px">
+        <ul>
+            <li>Jan 9th 2007</li>
+            <li>Feb 9th 2010</li>
+            <li>Jun 29th 2007</li>
+            <li>Dec 1st 2009</li>
+        </ul>
+        <a class="a:hover" href="https://en.wikipedia.org/wiki/IPhone_(1st_generation)" target="_blank">(Hint)</a>
+    <p class="italic">Answer: <input id="inputAnswer2" type="text"></p>
+    <hr>
+
+    <h2 class="question">Question 3.</h2>
+    <p class="p">What year was M.E Lazerte built?</p>
+    <img src="Media/download.jpg" alt="M.E Lazerte" width="200px">
+        <ul>
+            <li>1999</li>
+            <li>1969</li>
+            <li>1981</li>
+            <li>1968</li>
+        </ul>
+        <a class="a:hover" href="https://en.wikipedia.org/wiki/M.E._LaZerte_High_School" target="_blank">(Hint)</a>
+    <p class="italic">Answer: <input id="inputAnswer3" type="text"></p>
+    <hr>
+
+    <h2 class="question">Question 4.</h2>
+    <p class="p">Who is the actor in the audio clip?</p>
+    <img class="image" src="Media/nick-cage.jpg" alt="Nicholas Cage" width="100px">
+    <p class="p">
+        <audio controls>
+            <source src="Media/firearms.mp3" type="audio/mpeg">
+        </audio>
+    </p>
+        <ul>
+            <li>Alec Baldwin</li>
+            <li>Johnny Depp</li>
+            <li>Benedict Cumberbatch</li>
+            <li>Nicholas Cage</li>
+        </ul>
+    <p class="italic">Answer: <input id="inputAnswer4" type="text"></p>
+    <hr>
+
+    <h2>Results</h2>
+    <p><button id="mark-quiz-btn" type="button">Mark Quiz</button> Your score is <span id="score">__</span> / 4 (<span id="percent">__</span> %).</p>
+    <p id="end-result"></p>
+    
+     </div>
+<!-- Load JavaScript -->
+<script src="main.js"></script>
+</body>
+
+</html>
